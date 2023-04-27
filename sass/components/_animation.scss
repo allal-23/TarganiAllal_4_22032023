@@ -1,0 +1,41 @@
+// /* On commence par cacher tous les éléments que l'on veut faire apparaître */
+// .menu {
+//   opacity: 0;
+// }
+
+// /* On utilise l'animation pour faire apparaître chaque élément les uns après les autres */
+// .menu:nth-child(1) {
+//   animation: fadeIn 0.5s ease forwards 0.5s;
+// }
+
+// .menu:nth-child(2) {
+//   animation: fadeIn 0.5s ease forwards 1s;
+// }
+
+// .menu:nth-child(3) {
+//   animation: fadeIn 0.5s ease forwards 1.5s;
+// }
+
+// /* On définit l'animation fadeIn qui va faire apparaître les éléments */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.entrees,
+.plats,
+.desserts {
+  opacity: 0;
+}
+.entrees {
+  animation: fadeIn 3s ease forwards 0.5s;
+}
+.plats {
+  animation: fadeIn 3s ease forwards 1s;
+}
+.desserts {
+  animation: fadeIn 3s ease forwards 1.5s;
+}

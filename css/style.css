@@ -1,0 +1,538 @@
+:root {
+  font-family: "Roboto", "Shrikhand", sans-serif;
+}
+
+h1,
+h3 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+h2 {
+  font-family: "roboto";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 63px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header .logo {
+  height: 40px;
+}
+
+.fleche {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fleche .logo {
+  height: 40px;
+}
+.fleche i {
+  position: relative;
+  right: 26%;
+}
+
+.explorer {
+  width: 220px;
+  margin: auto;
+  color: #ffffff;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  border: #9356dc;
+  height: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.explorer:hover {
+  background-color: #b68cff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+
+.commander {
+  width: 220px;
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  border: #9356dc;
+  height: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.commander:hover {
+  background-color: #b68cff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+
+.paris {
+  display: flex;
+  height: 50px;
+  background-color: #eaeaea;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.paris i {
+  margin-right: 5px;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #f6f6f6;
+}
+.reservation .reservation_titre {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.reservation .reservation_texte {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fonctionnement {
+  margin-top: 40px;
+  padding: 20px;
+}
+.fonctionnement .fonctionnement_titre {
+  margin-bottom: 20px;
+}
+.fonctionnement .fonctionnement_div {
+  font-family: "Roboto";
+  margin: auto;
+  width: 87%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.fonctionnement .fonctionnement_div:hover {
+  background: #f5edff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.fonctionnement span {
+  border-radius: 50px;
+  border: 1px solid #9356dc;
+  background: #9356dc;
+  color: #ffffff;
+  padding: 5px 9px 5px 9px;
+  position: absolute;
+  left: -10px;
+}
+.fonctionnement i {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.fonctionnement :hover {
+  color: #9356dc;
+}
+
+.principale {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #f6f6f6;
+  margin: auto;
+}
+.principale .principal_titre {
+  margin-bottom: 20px;
+}
+
+.principale_div {
+  width: 100%;
+}
+.principale_div .tous_restaurant {
+  height: 250px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.principale_div .tous_restaurant span {
+  background: #99e2d0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.principale_div .image_resto {
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.principal_texte {
+  padding: 10px;
+  position: relative;
+}
+.principal_texte h3 {
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.principal_texte p {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.coeur {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+}
+.coeur :hover {
+  color: red;
+}
+
+footer {
+  background-color: #353535;
+  color: #ffffff;
+  padding: 15px;
+}
+footer h3 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin-bottom: 15px;
+}
+ul li i {
+  margin-right: 12px;
+}
+ul li .fa-solidfa-handshake-angle {
+  margin-right: 7px;
+}
+ul h3 {
+  margin-bottom: 20px;
+}
+
+.coeur i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.plein {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.plein:hover {
+  opacity: 1;
+  color: #9356dc;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.titre_menu1 i {
+  position: absolute;
+  right: 5%;
+}
+
+.loader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disappear 200ms 3s forwards;
+  transform-origin: top;
+}
+
+.loader::after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #9356dc;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out;
+  animation-iteration-count: 3;
+}
+
+@keyframes disappear {
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.page_body {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 275px;
+  position: relative;
+}
+
+.menu {
+  width: auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #f6f6f6;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  bottom: 10px;
+  padding: 10px;
+}
+
+.titre_menu1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.titre_menu1 h1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+}
+
+.pentrees,
+.pplats,
+.pdesserts {
+  width: 70px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #99e2d0;
+  font-weight: 300;
+}
+
+.les_menus,
+.les_plats,
+.les_desserts {
+  background: #ffffff;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  border-radius: 15.0431px;
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prix {
+  width: 10%;
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.p1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.pentrees h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.commander {
+  width: 220px;
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  background: linear-gradient(#9356dc, #ff79da);
+  border: #9356dc;
+  height: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.check {
+  background-color: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  position: relative;
+  bottom: 10px;
+  left: 3%;
+  width: 0px;
+  transition: width 1s;
+}
+
+.description {
+  width: 90%;
+  overflow: hidden;
+}
+.description p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.confirmation {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  color: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.les_menus:hover .check,
+.les_plats:hover .check,
+.les_desserts:hover .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  transition: width 1s;
+}
+
+.les_menus:hover .check .confirmation,
+.les_plats:hover .check .confirmation,
+.les_desserts:hover .check .confirmation {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@media screen and (min-width: 768px) {
+  .ff {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fonctionnement .fonctionnement_div {
+    margin-right: 10px;
+    width: 30%;
+  }
+  .principale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .principale_div {
+    display: flex;
+    gap: 20px;
+  }
+  .tous_restaurant {
+    min-width: 300px;
+  }
+  .menu {
+    width: 70%;
+    margin: auto;
+  }
+  .entrees,
+  .plats,
+  .desserts {
+    width: 72%;
+    margin: auto;
+  }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+  }
+  footer h3 {
+    padding-top: 6px;
+    margin-left: 20px;
+  }
+  .footer li {
+    margin-left: 20px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.entrees,
+.plats,
+.desserts {
+  opacity: 0;
+}
+
+.entrees {
+  animation: fadeIn 3s ease forwards 0.5s;
+}
+
+.plats {
+  animation: fadeIn 3s ease forwards 1s;
+}
+
+.desserts {
+  animation: fadeIn 3s ease forwards 1.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

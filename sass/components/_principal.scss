@@ -1,0 +1,72 @@
+.paris {
+  display: flex;
+  height: 50px;
+  background-color: #eaeaea;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  i {
+    margin-right: 5px;
+  }
+}
+.reservation {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #f6f6f6;
+  .reservation_titre {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  .reservation_texte {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.fonctionnement {
+  margin-top: 40px;
+  padding: 20px;
+  .fonctionnement_titre {
+    margin-bottom: 20px;
+  }
+  .fonctionnement_div {
+    font-family: "Roboto";
+    margin: auto;
+    width: 87%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .fonctionnement_div:hover {
+    background: #f5edff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  }
+  span {
+    border-radius: 50px;
+    border: 1px solid #9356dc;
+    background: #9356dc;
+    color: #ffffff;
+    padding: 5px 9px 5px 9px;
+    position: absolute;
+    left: -10px;
+  }
+  i {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  :hover {
+    color: #9356dc;
+  }
+}

@@ -1,0 +1,37 @@
+.explorer {
+  width: 220px;
+  margin: auto;
+  color: #ffffff;
+  background: $lineargradient;
+  border: #9356dc;
+  height: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.explorer:hover {
+  background-color: #b68cff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+
+.commander {
+  width: 220px;
+  display: block;
+  margin: auto;
+  color: #ffffff;
+  background: $lineargradient;
+  border: #9356dc;
+  height: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.commander:hover {
+  background-color: #b68cff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
