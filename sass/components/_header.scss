@@ -14,6 +14,7 @@ header .logo {
   height: 40px;
 }
 .fleche {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +23,7 @@ header .logo {
     height: 40px;
   }
   i {
-    position: relative;
-    right: 26%;
+    position: absolute;
+    left: 6%;
   }
 }
