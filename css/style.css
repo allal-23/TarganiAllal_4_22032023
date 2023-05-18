@@ -342,7 +342,7 @@ ul h3 {
   background-color: #f6f6f6;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  bottom: 10px;
+  margin-top: -30px;
   padding: 10px;
 }
 
@@ -486,14 +486,19 @@ ul h3 {
   }
   .principale_div {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -10px;
   }
   .tous_restaurant {
-    min-width: 300px;
+    max-width: 50%;
+    flex-basis: calc(50% - 20px);
+    margin: 0 10px 20px;
   }
   .menu {
     width: 70%;
     margin: auto;
+    margin-top: -30px;
   }
   .entrees,
   .plats,
