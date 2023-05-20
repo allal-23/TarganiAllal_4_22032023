@@ -1,0 +1,54 @@
+.check {
+  background-color: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  position: relative;
+  bottom: 10px;
+  left: 3%;
+  width: 0px;
+  transition: width 1s;
+}
+.description {
+  width: 90%;
+  overflow: hidden;
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.confirmation {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  color: #99e2d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+// .check {
+//   //   display: none;
+// }
+
+.les_menus:hover .check,
+.les_plats:hover .check,
+.les_desserts:hover .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  transition: width 1s;
+  //   transform: scale(1); /* affiché lors du survol */
+}
+
+.les_menus:hover .check .confirmation,
+.les_plats:hover .check .confirmation,
+.les_desserts:hover .check .confirmation {
+  opacity: 1;
+  transition: opacity 1s;
+}

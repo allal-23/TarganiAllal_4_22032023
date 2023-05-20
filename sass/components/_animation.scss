@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.entrees,
+.plats,
+.desserts {
+  opacity: 0;
+}
+.entrees {
+  animation: fadeIn 3s ease forwards 0.5s;
+}
+.plats {
+  animation: fadeIn 3s ease forwards 1s;
+}
+.desserts {
+  animation: fadeIn 3s ease forwards 1.5s;
+}

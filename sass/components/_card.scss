@@ -1,0 +1,60 @@
+.principale {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #f6f6f6;
+  margin: auto;
+  .principal_titre {
+    margin-bottom: 20px;
+  }
+}
+
+.principale_div {
+  width: 100%;
+  .tous_restaurant {
+    height: 250px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    span {
+      background: #99e2d0;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      padding: 5px;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+  }
+
+  .image_resto {
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}
+
+.principal_texte {
+  padding: 10px;
+  position: relative;
+  h3 {
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+}
+.coeur {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  :hover {
+    color: red;
+  }
+}

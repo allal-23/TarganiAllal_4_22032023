@@ -1,0 +1,24 @@
+.coeur i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+}
+.plein {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.plein:hover {
+  opacity: 1;
+  color: transparent;
+  font-size: 35px;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.titre_menu1 i {
+  position: absolute;
+  right: 5%;
+  font-size: 35px;
+}

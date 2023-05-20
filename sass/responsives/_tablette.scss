@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+  .ff {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fonctionnement .fonctionnement_div {
+    margin-right: 10px;
+    width: 30%;
+  }
+  .principale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .principale_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -10px;
+  }
+  .tous_restaurant {
+    max-width: 50%;
+    flex-basis: calc(50% - 20px);
+    margin: 0 10px 20px;
+  }
+  .menu {
+    width: 70%;
+    margin: auto;
+    margin-top: -30px;
+  }
+  .entrees,
+  .plats,
+  .desserts {
+    width: 72%;
+    margin: auto;
+  }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+  }
+  footer h3 {
+    padding-top: 6px;
+    margin-left: 20px;
+  }
+  .footer li {
+    margin-left: 20px;
+  }
+}
